@@ -80,7 +80,6 @@ p {
 
 footer {
     background-color: var(--color2);
-    color: var(--color4);
     width: 100%;
     text-align: center;
     padding: 1rem 0;
@@ -88,18 +87,13 @@ footer {
     bottom: 0;
 }
 
-footer a {
-    color: var(--color4);
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
+footer p {
+    color: black;
 }
 
 .github-logo {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     vertical-align: middle;
     transition: transform 0.3s;
 }
