@@ -52,7 +52,7 @@ function checkPalindrome() {
 
     // Generate and display random palindromes
     const randomPalindromes = generatePalindromes();
-    generatedElement.textContent = `Random Palindromes: ${randomPalindromes.join(', ')}`;
+    generatedElement.innerHTML = `Random Palindromes:<br>${randomPalindromes.join('<br>')}`;
 }
 
 // Add event listener to the check button
