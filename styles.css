@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: var(--color1);
+    background: radial-gradient(circle, var(--color1), var(--color3));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,6 +28,11 @@ body {
 
 h1 {
     color: var(--color4);
+}
+
+.description {
+    color: var(--color5);
+    margin-bottom: 1rem;
 }
 
 input {
